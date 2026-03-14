@@ -2,13 +2,12 @@
   "name": "sql-practice-app",
   "version": "1.0.0",
   "description": "SQL Practice Mobile App",
-  "main": "index.js",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
   "cordova": {
     "platforms": [
       "android"
-    ]
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {}
+    }
   }
 }
