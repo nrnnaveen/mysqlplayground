@@ -20,6 +20,11 @@
     <access origin="*" />
     <allow-navigation href="*" />
 
+    <!-- Allow Google Login -->
+    <allow-intent href="https://accounts.google.com/*" />
+    <allow-intent href="https://*.google.com/*" />
+    <allow-intent href="https://*.gstatic.com/*" />
+
     <preference name="Fullscreen" value="true"/>
     <preference name="AndroidInsecureFileModeEnabled" value="true"/>
 
