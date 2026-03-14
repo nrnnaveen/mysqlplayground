@@ -8,20 +8,6 @@
 
 <title>SQL Practice</title>
 
-<script>
-
-document.addEventListener("deviceready", function () {
-
-    // open website in system browser
-    window.open(
-        "https://sql-practice-mobile-playground.onrender.com",
-        "_system"
-    );
-
-}, false);
-
-</script>
-
 </head>
 
 <body>
@@ -29,6 +15,20 @@ document.addEventListener("deviceready", function () {
 <h2 style="text-align:center;margin-top:50px;">
 Opening SQL Practice App...
 </h2>
+
+<script src="cordova.js"></script>
+
+<script>
+document.addEventListener("deviceready", function () {
+
+    window.open(
+        "https://sql-practice-mobile-playground.onrender.com",
+        "_system",
+        "location=yes"
+    );
+
+}, false);
+</script>
 
 </body>
 
