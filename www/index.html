@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SQL Practice</title>
+
 </head>
 
 <body>
 
 <h2 style="text-align:center;margin-top:50px;">
-Opening SQL Practice App...
+Loading SQL Practice App...
 </h2>
 
 <script src="cordova.js"></script>
 
 <script>
+
 document.addEventListener("deviceready", function () {
 
-    cordova.InAppBrowser.open(
+    var ref = cordova.InAppBrowser.open(
         "https://sql-practice-mobile-playground.onrender.com",
-        "_system"
+        "_blank",
+        "location=no,zoom=no,hardwareback=yes"
     );
 
 });
+
 </script>
 
 </body>
