@@ -4,17 +4,21 @@
 <head>
 
 <meta charset="utf-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>SQL Practice</title>
 
 <script>
 
-window.location.replace(
-"https://sql-practice-mobile-playground.onrender.com"
-);
+document.addEventListener("deviceready", function () {
+
+    // open website in system browser
+    window.open(
+        "https://sql-practice-mobile-playground.onrender.com",
+        "_system"
+    );
+
+}, false);
 
 </script>
 
@@ -23,9 +27,7 @@ window.location.replace(
 <body>
 
 <h2 style="text-align:center;margin-top:50px;">
-
-Loading SQL Practice App...
-
+Opening SQL Practice App...
 </h2>
 
 </body>
