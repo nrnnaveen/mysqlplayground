@@ -2,12 +2,9 @@
 <html>
 
 <head>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>SQL Practice</title>
-
 </head>
 
 <body>
@@ -21,15 +18,13 @@ Opening SQL Practice App...
 <script>
 document.addEventListener("deviceready", function () {
 
-    window.open(
+    cordova.InAppBrowser.open(
         "https://sql-practice-mobile-playground.onrender.com",
-        "_system",
-        "location=yes"
+        "_system"
     );
 
-}, false);
+});
 </script>
 
 </body>
-
 </html>
