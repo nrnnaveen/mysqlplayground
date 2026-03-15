@@ -1,7 +1,17 @@
 {
-  "name": "sql-practice-app",
+  "name": "sql-practice-mobile",
   "version": "1.0.0",
   "description": "SQL Practice Mobile App",
+  "scripts": {
+    "build:debug": "cordova build android --debug",
+    "build:release": "cordova build android --release",
+    "clean": "cordova clean",
+    "add-android": "cordova platform add android"
+  },
+  "dependencies": {
+    "cordova": "^11.0.0",
+    "cordova-plugin-inappbrowser": "^5.0.0"
+  },
   "cordova": {
     "platforms": [
       "android"
